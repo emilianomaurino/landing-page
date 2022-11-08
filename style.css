@@ -6,7 +6,8 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
-    font-family: "Dancing Script"
+    font-family: "Dancing Script";
+    width: auto;
 }
 :root{
     /* text color*/
