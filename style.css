@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lora:ital@1&display=swap');
 
 *{
     margin: 0;
@@ -129,13 +130,111 @@ main {
     align-items: center;
 }
 .descripcion p {
-    width: 500px;
-    text-align: center;
+    width: 800px;
+    text-align:center;
     font-size: 25px;
     color: var(--fotns);
     font-weight: 400;
+    padding: 30px;
 }
 
+#cards {
+    padding: 70px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+}
+
+#cards h2 {
+    font-size: 35px;
+    font-weight: 500;
+    color: var(--fotns);
+}
+
+.info-cards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+
+.info-card {
+    width: 300px;
+    height: 290px;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: var(--independence);
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.info-card img {
+    width: 80%;
+}
+
+.info-card h3 {
+    font-weight: 200;
+    font-size: 120%;
+    color: var(--fotns); 
+}
+
+.info-card p {
+    font-size: 15px;
+    font-weight: 200;
+    color: var(--fotns);
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    max-width: 1200px;
+    justify-content: center;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#contact h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--fotns);
+}
+.info-contact{
+    display: flex;
+    padding: 10px;
+    gap: 30px;
+    font-size: 20px;
+    width: 100%;
+    font-size: 20px;
+    color: var(--fotns);
+}
+.info-contact img{
+    width: 10%;
+}    
+.mapa{ 
+    border-radius: 10px;
+}
+footer {
+    background-color: var(--outer-space-crayola);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+}
+footer h3{
+    color: var(--fotns);
+    font-weight: 100;
+}
 
 
 @media (max-width: 992px){
@@ -153,6 +252,12 @@ main {
     }
     .button{
         gap: 100px;
+    }
+    .info-cards-container {
+        flex-direction: column;
+    }
+    #contact {
+        flex-direction: column;
     }
 }
 @media (max-width: 768px){
@@ -177,4 +282,5 @@ main {
     .descripcion p {
         width: 300px;
     }
+
 }
