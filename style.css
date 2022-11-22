@@ -201,6 +201,7 @@ main {
     padding: 20px 40px;
     margin-bottom: 20px;
     border-radius: 10px;
+    background-color: var(--independence);
 }
 #contact h2{
     display: flex;
@@ -218,7 +219,7 @@ main {
     color: var(--fotns);
 }
 .info-contact img{
-    width: 10%;
+    width: 8%;
 }    
 .mapa{ 
     border-radius: 10px;
