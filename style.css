@@ -316,6 +316,9 @@ footer h3{
     #cards h2{
         font-size: 30px;
     }
+    .info-card h3 {
+        font-size: 100%;
+    }
     #contact h2{
         text-align: center;
     }
@@ -328,5 +331,8 @@ footer h3{
     }
     .mapa{
         display: none;
+    }
+    #hero {
+        margin-top: 30px;
     }
 }
