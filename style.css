@@ -298,7 +298,7 @@ footer h3{
     }
     .navbar-list{
         padding: 0px 0px;
-        gap: 30px;
+        gap: 20px;
     }
     .hero-info {
         width: 100%;
@@ -312,7 +312,6 @@ footer h3{
     }
     .hero-foto{
         width: 80%;
-        
     }
     #cards h2{
         font-size: 30px;
