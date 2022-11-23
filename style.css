@@ -290,8 +290,32 @@ footer h3{
     }
 }
 @media (max-width: 560px){
+    *{
+        overflow-x: hidden;
+    }
+    .logo{
+        display: none;
+    }
+    .navbar-list{
+        padding: 0px 0px;
+        gap: 30px;
+    }
+    .hero-info {
+        width: 100%;
+    }
     .hero-info h1{
-        margin-left: 50px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .hero-info h1{
+        text-align: center;
+    }
+    .hero-foto{
+        width: 80%;
+        
+    }
+    #cards h2{
+        font-size: 30px;
     }
     #contact h2{
         text-align: center;
@@ -301,7 +325,7 @@ footer h3{
         width: 100%;
     }
     .info-contact img{
-        display: no
+        display: none;
     }
     .mapa{
         display: none;
